@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('build') {
       steps {
-library 'jenkins-infra/pipeline-library'
 
         buildPlugin(platforms: ['linux'], jdkVersions: [8])
 
