@@ -1,4 +1,4 @@
-@library('jenkins-infra/pipeline-library')
+@Library('jenkins-infra/pipeline-library')
 pipeline {
   agent any
   stages {
